@@ -16,4 +16,13 @@ class DefaultController extends Controller
     {
         return new Response('Hello ETA team!');
     }
+
+    /**
+     * @Route("/highly-interactive", name="highly_interactive")
+     */
+    public function highlyInteractiveAction()
+    {
+        return $this->render('default/highly-interactive.html.twig');
+    }
 }
+

@@ -6,3 +6,11 @@ default:
         default:
           symfony2: ~
 
+phantomjs:
+  extensions:
+    Behat\Symfony2Extension: ~
+    Behat\MinkExtension:
+      base_url: 'http://172.17.0.4/'
+      selenium2:
+        wd_host: "http://phantomjs:8643/wd/hub"
+
