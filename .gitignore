@@ -10,5 +10,4 @@
 /docker/data/mysql/*
 /vendor/
 /web/bundles/
-docker-compose.yml
 
